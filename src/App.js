@@ -2,6 +2,7 @@ import './App.scss';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
 import Achievement from './components/Achievement/Achievement';
+import Companies from './components/Companies/Companies';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <Hero />
         </div>
         <Achievement />
-        {/* <Companies /> */}
+        <Companies />
         {/* <About /> */}
         {/* <Work /> */}
         {/* <Comunity /> */}

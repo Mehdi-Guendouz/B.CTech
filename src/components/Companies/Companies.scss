@@ -1,0 +1,21 @@
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+    .companies-wrapper{
+        width: 100%;
+        background-color: rgba(9, 29, 24, 0.5);
+        padding: 40px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 130px;
+
+        img{
+            opacity: 0.5;
+        }
+    }
+}
