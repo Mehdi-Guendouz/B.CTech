@@ -7,8 +7,8 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('./Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf') format('otf'),
-       url('./Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf') format('otf');
+  src: url('./Gilroy-FREE/Gilroy-ExtraBold.otf') format('otf'),
+       url('./Gilroy-FREE/Gilroy-Light.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
