@@ -12,20 +12,20 @@ const About = () => {
                 <button>Learn More</button>
             </div>
             <div className="pictures-container">
-                <div className="item">
-                    <img src="" alt="" />
+                <div className="item one">
+                    <img src="./icons/books.png" alt="" />
                     <span>Marketplace</span>
                 </div>
-                <div className="item">
-                    <img src="" alt="" />
+                <div className="item two">
+                    <img src="./icons/secure.png" alt="" />
                     <span>Money Protection</span>
                 </div>
-                <div className="item">
-                    <img src="" alt="" />
+                <div className="item three">
+                    <img src="./icons/folder.png" alt="" />
                     <span>Data Protection</span>
                 </div>
-                <div className="item">
-                    <img src="" alt="" />
+                <div className="item four">
+                    <img src="./icons/lock.png" alt="" />
                     <span>Fast and Secure</span>
                 </div>
             </div>

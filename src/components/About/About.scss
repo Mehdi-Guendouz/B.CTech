@@ -9,7 +9,6 @@
         display: flex;
         padding: 100px 60px;
         width: 85%;
-        height: 50%;
         flex-direction: column;
         justify-content: center;
         gap: 30px;
@@ -60,7 +59,49 @@
 
     .pictures-container{
         position: absolute;
-        display: none;
+        width: 50%;
+        right: 0;
+        // background-color: #00E3A5;
         
+
+        .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px 30px;
+            width: fit-content;
+            min-width: 300px;
+            min-height: 200px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%);
+            backdrop-filter: blur(25px);
+            color: #BDF3FF;
+            font-size: 22px;
+            border-radius: 15px;
+            position: absolute;
+        }
+
+        .one{
+            transform: translate(-90px, -110%);
+        }
+
+        .two{
+            right: 0;
+            transform: translate(-100px, -80%);
+            z-index: 10;
+        }
+
+        .four{
+            right: 0;
+            transform: translate(-30px, 25%);
+            z-index: 10;
+        }
+
+        .three{
+            transform: translate( -20px, 0);
+            z-index: 1;
+        }
+
     }
 }
