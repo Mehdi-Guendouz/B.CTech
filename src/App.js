@@ -4,6 +4,9 @@ import Hero from './components/hero/Hero';
 import Achievement from './components/Achievement/Achievement';
 import Companies from './components/Companies/Companies';
 import About from './components/About/About';
+import Work from './components/Work/Work';
+import Community from './components/Community/Community';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -16,9 +19,9 @@ function App() {
         <Achievement />
         <Companies />
         <About />
-        {/* <Work /> */}
-        {/* <Comunity /> */}
-        {/* <Footer /> */}
+        <Work />
+        <Community />
+        <Footer />
     </div>
   );
 }
