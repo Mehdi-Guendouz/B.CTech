@@ -16,6 +16,12 @@ function App() {
           <Navbar />
           <Hero />
         </div>
+        <div className='nav-hero-container'>
+          <img src='./image/backgroundd.png' alt='background' />
+          <Navbar />
+          <Hero />
+        </div>
+        
         <Achievement />
         <Companies />
         <About />
