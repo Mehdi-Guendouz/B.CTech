@@ -80,6 +80,34 @@
             font-size: 22px;
             border-radius: 15px;
             position: absolute;
+
+            .blur{
+                filter: blur(30px);
+                width: 97px;
+                height: 97px;
+                position: absolute;
+            }
+
+            .blur-one{
+                background-color: #FFB413;
+                top: 0;
+                transform: translate(-20px, -10px);
+            }
+            .blur-two{
+                background-color: #FF5A13;
+                top: 0;
+            }
+            .blur-three{
+                background-color: #2FB8EB;
+                transform: translate(-40px, -10px);
+                top: 0;
+            }
+            .blur-four{
+                background-color: #00E3A5;
+                transform: translate(40px, 0px);
+                top: 0;
+            }
+            
         }
 
         .one{

@@ -13,18 +13,22 @@ const About = () => {
             </div>
             <div className="pictures-container">
                 <div className="item one">
+                    <div className="blur blur-one"></div>
                     <img src="./icons/books.png" alt="" />
                     <span>Marketplace</span>
                 </div>
                 <div className="item two">
+                    <div className="blur blur-two"></div>
                     <img src="./icons/secure.png" alt="" />
                     <span>Money Protection</span>
                 </div>
                 <div className="item three">
+                    <div className="blur blur-three"></div>
                     <img src="./icons/folder.png" alt="" />
                     <span>Data Protection</span>
                 </div>
                 <div className="item four">
+                    <div className="blur blur-four"></div>
                     <img src="./icons/lock.png" alt="" />
                     <span>Fast and Secure</span>
                 </div>
