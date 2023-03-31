@@ -1,0 +1,100 @@
+.community-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 20px;
+
+    h1{
+        font-size: 36px;
+        color: #F5FBF2;
+        font-weight: 700; 
+        text-align: center;
+    }
+    .content{
+        display: flex;
+        padding: 60px 10px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        position: relative;
+        background-color: rgba(9, 37, 30, 0.2);
+        border-radius: 0px 319px 319px 0px;
+        z-index: 10;
+
+        .card{
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            background-color: rgba(0, 221, 156, 0.1);
+            border-radius: 319.5px;
+            position: relative;
+            padding: 6rem 1rem;
+
+
+            .profile-img{
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: transparent;
+                border: 5px solid #00E3A5;
+                overflow: hidden;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .card-content{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                font-size: 18px;
+                font-weight: 400;
+                color: #80AB9E;
+
+                p{
+                    max-width: 400px;
+                    text-align: justify;
+                }
+                
+            }
+
+            .arrow-left{
+                position: absolute;
+                left: 0;
+                transform: rotate(180deg) translateX(30px);
+                cursor: pointer;
+            }
+
+            .arrow-right{
+                position: absolute;
+                right: 0;
+                transform:  translateX(30px);
+                cursor: pointer;
+            }
+        }
+
+        .about-img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            border-radius: 0px 319px 319px 0px;
+        }
+    }
+        
+
+}

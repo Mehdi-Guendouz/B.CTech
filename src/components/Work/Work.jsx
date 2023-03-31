@@ -38,6 +38,8 @@ const Work = () => {
                     <img src="./icons/technology.png" alt="" />
                 </div>
             </div>
+
+            <button>Let's see more</button>
         </div>
     );
 }

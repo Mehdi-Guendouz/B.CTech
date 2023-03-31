@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 40px;
-    padding: 40px 0;
+    padding: 50px 0;
 
     h1{
         font-weight: 700;
@@ -109,5 +109,17 @@
         }
     }
 
+    button{
+        cursor: pointer;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 20px 40px;
+        min-width: 300px;
+        background-color: transparent;
+        border: 1px solid #00E3A5;
+        border-radius: 5px;
+        margin: 40px auto;
+    }
 
 }
